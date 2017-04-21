@@ -1,0 +1,10 @@
+---
+---
+{% include head.html %}
+<h2>{{ page.title }}</h2>
+<p>{{ page.date | date_to_string }}</p>
+
+<div class="post">
+  {{ content }}
+</div>
+{% include foot.html %}

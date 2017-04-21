@@ -1,16 +1,9 @@
 ---
 ---
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-</head>
+{% include head.html %}
 <body>
   <h1>Writings of Travis Briggs</h1>
-  <p>Some random poetry and other junk</p>
+  <p>Original writings, poetry and musings that aren't a blog.</p>
 
   <ul>
     {% for post in site.posts %}
@@ -20,4 +13,4 @@
     {% endfor %}
   </ul>
 </body>
-</html>
+{% include foot.html %}
