@@ -1,1 +1,2 @@
-exclude: ['Gemfile', 'Gemfile.lock', '.ruby-version', '.ruby-gemset']
+exclude: ['Gemfile', 'Gemfile.lock', '.ruby-version',
+          '.ruby-gemset', '.gitignore']
